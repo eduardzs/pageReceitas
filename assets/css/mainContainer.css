@@ -1,0 +1,63 @@
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: 50px 20px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 50px;
+    padding: 50px;
+}
+
+#imagemPrincipal {
+    border-radius: 25px;
+}
+
+.tituloPrincipal {
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: "Young Serif", serif;
+    color: hsl(24, 5%, 18%);
+}
+
+.preparationContainer {
+    padding: 40px;
+    border-radius: 25px;
+    background-color: hsl(332, 51%, 90%);
+}
+
+.preparationContainer h3 {
+    color: hsl(332, 51%, 32%);
+    font-size: 2rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 900;
+}
+
+.nutritionList {
+    padding-left: 0;
+}
+
+.nutritionList ul {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.info {
+    color: hsl(14, 45%, 36%);
+    font-weight: 900;
+}
+
+.infoContainer {
+    background-color: hsl(14, 45%, 80%);
+}

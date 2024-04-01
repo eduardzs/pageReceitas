@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    #mainContainer {
+        margin: 0;
+        padding: 20px;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    #mainContainer h1 {
+        font-size: 1.5rem;
+    }
+    #mainContainer h2 {
+        font-size: 1.25rem;
+    }
+    #mainContainer h3 {
+        font-size: 1.15rem;
+    }
+    #mainContainer p,
+    #mainContainer ul,
+    #mainContainer li {
+        font-size: 1rem;
+    }
+}

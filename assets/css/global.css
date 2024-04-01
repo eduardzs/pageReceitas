@@ -1,0 +1,36 @@
+@import url(./mainContainer.css);
+@import url(./mobile.css);
+
+* li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: #f3e5d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    white-space: normal;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+p,
+li {
+    font-size: 1.5em;
+    color: hsl(30, 10%, 34%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 2.25rem;
+    font-family: "Young Serif", serif;
+}
